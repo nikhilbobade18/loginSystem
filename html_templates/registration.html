@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- {% load static %} -->
+
+
+
+<link rel="stylesheet" href="/static/bootstrap.min.css">
+	<title></title>
+
+</head>
+
+<body >
+
+<form  action="/registration/" method="POST">
+<center>
+	<h2> Employee Registration </h2>
+<legend>
+<fieldset>
+
+	<div class="container">
+		<div class="rows">
+			<div class="col-sm-6">
+
+
+	   			<label>NAME:</label> </br>
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1"></span>
+  				  <input type="text"  name="name" class="form-control" aria-describedby="basic-addon1">
+				</div>
+
+			</div>
+
+			<div class="col-sm-6">
+				<label>EMAIL:</label> </br>
+				<input type = 'email' name="email" class="form-control" size = "30" id="email"/> </br>
+
+			</div>
+		</div>
+
+		
+
+		<div class="rows">
+			<div class="col-sm-6">
+				<label>USERNAME:</label> </br>
+				<input type = 'text' name="user" maxlength="10"> </br>
+			</div>
+
+        <div class="rows">
+
+			<div class="col-sm-12">
+
+				<label>PASSWORD:</label> </br>
+				<input type = 'password' name="password" maxlenght = "7"> </br>
+
+			</div>
+		</div>
+
+
+			<div class="col-sm-6">
+				<label>MOBILE NUMBER:</label> </br>
+				<input type = 'number' name="mobile_no" maxlength="10"> </br>
+			</div>
+		</div>
+
+
+
+
+		<button class="btn btn-success btn-md center-block" type='submit'>Sign Up </button>
+    </fieldset>
+
+</legend>
+</center>
+</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/static/bootstrap.min.js"></script>
+</body>
+</html>
